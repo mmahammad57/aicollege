@@ -468,3 +468,22 @@
     padding:12px 18px; z-index:100; font-weight:700; border-radius:0 0 10px 0;
   }
   .skip-link:focus{left:0;}
+/* Footer Instagram Stil tənzimləmələri */
+.foot-social a {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px; /* Loqo ilə yazı arasındakı məsafə */
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.instagram-icon {
+  width: 18px;
+  height: 18px;
+  vertical-align: middle;
+}
+
+/* Üzərinə gələndə (Hover) effekt */
+.foot-social a:hover {
+  color: #E1306C; /* İnstagram-ın rəsmi çəhrayı-qırmızı rəngi */
+}
