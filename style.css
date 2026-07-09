@@ -487,3 +487,9 @@
 .foot-social a:hover {
   color: #E1306C; /* İnstagram-ın rəsmi çəhrayı-qırmızı rəngi */
 }
+.site-logo-img, .logo img {
+  width: 45px !important;
+  height: 45px !important;
+  object-fit: contain !important;
+  border-radius: 6px;
+}
